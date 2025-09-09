@@ -20,8 +20,8 @@ nav {
 
 *{
     box-sizing: border-box;
-   /* border: 2px solid navy;
-    border-radius: 10px;*/
+   border: 2px solid navy;
+    border-radius: 10px;
 }
 
 .row {
@@ -30,9 +30,17 @@ nav {
     color: #000080;
 }
 
+.row h1 {
+    text-align: center;
+}
+
 .post-text-box {
     flex: 70%;
     padding: 20px;
+}
+
+.profile {
+    padding-right: 20px;
 }
 
 .profile img {
@@ -58,13 +66,11 @@ nav {
 
 footer {
     text-align: center;
-    border-top: 2px #000080;
     padding 20px;
     width: 100%;
     position: fixed;
     bottom: 50px;
     left: 0;
-
 }
 
 body {
