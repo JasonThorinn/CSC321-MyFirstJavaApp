@@ -28,6 +28,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     color: #000080;
+    text-align: center;
 }
 
 .row h1 {
@@ -35,7 +36,7 @@ nav {
 }
 
 .post-text-box {
-    flex: 70%;
+    flex: 40%;
     padding: 20px;
 }
 
