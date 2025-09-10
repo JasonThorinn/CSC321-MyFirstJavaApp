@@ -67,7 +67,7 @@ nav {
 .post-text-box ul li::before {
     content: '\2726';
     color: #000080;
-    font-size: 1.2em;
+    font-size: 0.4em;
     margin-right: 0.5em;
 }
 
@@ -124,10 +124,10 @@ th, td {
     text-align: center;
 }
 
-.profile p {
+/* .profile p {
     text-align: center;
     font-family: Courier;
-}
+} */
 
 input {
     background-color: #DBf3DF;
@@ -144,10 +144,11 @@ textarea {
 footer {
     flex: 1;
     text-align: center;
-    padding 20px;
+    padding: 10px;
     width: 100%;
-    position: fixed;
-    bottom: 20px;
+    /* position: fixed; */
+    bottom: 5px;
+    top: 5px;
     left: 0;
 }
 
