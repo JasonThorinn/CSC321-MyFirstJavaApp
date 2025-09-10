@@ -2,15 +2,16 @@ header {
     text-align: Center;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 40px;
     color:#000080;
     text-decoration:wavy;
     font-size: larger;
-    background-color: #cde7b5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #DBf3DF;
+    font-family: Georgia;
     border: 2px solid navy;
     border-radius: 10px;
+    height: 105px;
 }
 
 a:link, a:visited {
@@ -26,12 +27,6 @@ nav {
     word-spacing: 30px;
     padding: 10px;
 }
-
-/* *{
-    box-sizing: border-box;
-    border: 2px solid navy;
-    border-radius: 10px;
-} */
 
 .row {
     display: flex;
@@ -50,6 +45,8 @@ nav {
 .post-text-box {
     flex: 2;
     padding: 20px;
+    font-family: 'Times New Roman', Times, serif
+    Margin-top: 5px;
 }
 
 .post-text-box ul {
@@ -57,7 +54,7 @@ nav {
     margin: 0 auto;
     border: 2px solid navy;
     border-radius: 10px;
-    background-color: white;
+    background-color: #DBf3DF;
     display: inline-block;
 }
 
@@ -93,19 +90,20 @@ nav {
 .time-table {
    flex: 1;
     padding: 5px;
+    font-style: 'Times New Roman', Times, serif;
 }
 
 table {
     border-collapse: collapse;
     border: 2px solid navy;
-    background-color: white;
+    background-color: hsl(0, 0%, 100%);
 }
 
 th, td {
     border: 1px solid navy;
     text-align: center;
     padding: 5px;
-
+    background-color: #DBf3DF;
 }
 
 .profile {
@@ -115,13 +113,11 @@ th, td {
 .profile img {
     width: 120px;
     display: block;
-    margin-left: 0;
-    margin-right: 200px;
     border: 2px solid navy;
     border-radius: 10px;
     padding: 10px;
-    margin: 10px;
-    background-color: white;
+    margin: 0 auto;
+    background-color: #DBf3DF;
 }
 
 .profile h1 {
@@ -133,13 +129,25 @@ th, td {
     font-family: Courier;
 }
 
+input {
+    background-color: #DBf3DF;
+    border: 1px solid navy;
+    border-radius: 3px;
+}
+
+textarea {
+    background-color: #DBf3DF;
+    border: 1px solid navy;
+    border-radius: 3px;
+}
+
 footer {
     flex: 1;
     text-align: center;
     padding 20px;
     width: 100%;
     position: fixed;
-    bottom: 30px;
+    bottom: 20px;
     left: 0;
 }
 
