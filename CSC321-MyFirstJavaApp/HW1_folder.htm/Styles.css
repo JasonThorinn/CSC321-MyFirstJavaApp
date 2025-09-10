@@ -35,6 +35,18 @@ nav {
     text-align: center;
 }
 
+.post-text-box ul {
+    list-style-type: circle;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.post-text-box ul li {
+    text-align: left;
+    margin: 5px 0;
+}
+
 .post-text-box {
     flex: 40%;
     padding: 20px;
